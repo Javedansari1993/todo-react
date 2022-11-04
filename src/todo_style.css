@@ -1,0 +1,24 @@
+.todo_style {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+button {
+    min-height: 40px;
+    width: 40px;
+    color: white;
+    border-radius: 50%;
+    border-color: transparent;
+    background-color: #8566aa;
+    border: node;
+    outline: node;
+    margin-right: 10px;
+    box-shadow: 5px 5px 25px -5px rgba(0,0,0,0.3);
+  }
+
+  .todo_style button:hover {
+    background-color: #e00b0b;
+  }
